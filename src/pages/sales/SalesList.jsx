@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import api from "../../services/api";
-import Loader from "../../components/Loader";
+import api from "../../services/api.js";
+import Loader from "../../components/Loader.jsx";
 
 function SalesList() {
 

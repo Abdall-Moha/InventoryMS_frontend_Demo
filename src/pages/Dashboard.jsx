@@ -12,8 +12,8 @@ import {
   HiUsers,
   HiWallet,
 } from "react-icons/hi2";
-import api from "../services/api";
-import Loader from "../components/Loader";
+import api from "../services/api.js";
+import Loader from "../components/Loader.jsx";
 
 // Dashboard page - shows useful supermarket information collected from the database.
 function Dashboard() {

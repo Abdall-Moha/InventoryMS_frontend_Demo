@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import api from "../../services/api";
-import Loader from "../../components/Loader";
-import SearchBar from "../../components/SearchBar";
-import ConfirmDelete from "../../components/ConfirmDelete";
+import api from "../../services/api.js";
+import Loader from "../../components/Loader.jsx";
+import SearchBar from "../../components/SearchBar.jsx";
+import ConfirmDelete from "../../components/ConfirmDelete.jsx";
 
 function CustomerList() {
 

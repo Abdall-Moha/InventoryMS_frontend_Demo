@@ -7,8 +7,8 @@ import {
   HiShoppingBag,
   HiWallet,
 } from "react-icons/hi2";
-import api from "../services/api";
-import Loader from "../components/Loader";
+import api from "../services/api.js";
+import Loader from "../components/Loader.jsx";
 
 function Reports() {
   const [report, setReport] = useState(null);

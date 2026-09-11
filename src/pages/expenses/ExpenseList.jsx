@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import api from "../../services/api";
-import Loader from "../../components/Loader";
-import ConfirmDelete from "../../components/ConfirmDelete";
+import api from "../../services/api.js";
+import Loader from "../../components/Loader.jsx";
+import ConfirmDelete from "../../components/ConfirmDelete.jsx";
 
 function ExpenseList() {
 

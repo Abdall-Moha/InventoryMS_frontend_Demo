@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import api, { IMAGE_BASE_URL } from "../../services/api";
-import Loader from "../../components/Loader";
+import api, { IMAGE_BASE_URL } from "../../services/api.js";
+import Loader from "../../components/Loader.jsx";
 
 function ViewProduct() {
 

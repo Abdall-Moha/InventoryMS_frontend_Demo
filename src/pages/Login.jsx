@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { HiLockClosed, HiShoppingBag } from "react-icons/hi2";
 import { useNavigate } from "react-router-dom";
-import api from "../services/api";
+import api from "../services/api.js";
 
 // Login page - a focused sign-in screen for supermarket staff.
 function Login() {
